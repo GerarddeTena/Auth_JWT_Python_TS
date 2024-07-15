@@ -7,7 +7,7 @@ import {AuthContext, AuthProvider} from "./Contexts/AuthContext.tsx";
 import {ReactComponentLike} from 'prop-types'
 import {RegisterForm} from './views/RegisterForm.tsx';
 import {LoginForm} from "./views/LoginForm.tsx";
-import {Navbar} from "./components/Navbar.tsx";
+import {Navbar} from "./component/Navbar.tsx";
 
 interface PrivateRouteProps {
     component: ReactComponentLike

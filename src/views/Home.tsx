@@ -4,7 +4,7 @@ import ReactLogo from '../assets/react.svg';
 import PythonLogo from '../assets/python-svgrepo-com.svg';
 // @ts-ignore
 import TSLogo from '../assets/typescript-svgrepo-com.svg';
-import '../styles/views/Home.scss';
+import '../styles/view/Home.scss';
 export const Home = () => {
     const svg = {
         react: ReactLogo,

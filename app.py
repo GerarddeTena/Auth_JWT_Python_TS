@@ -3,7 +3,6 @@ from flask_jwt_extended import JWTManager
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from settings import JWT_SECRET_KEY
-import os
 
 # Setup DB
 db = SQLAlchemy()
@@ -24,7 +23,7 @@ def create_app():
     jwt = JWTManager(app)
 
     # IMPORT BLUEPRINT:
-    from api.routes import user_bp
+    from src.api.routes import user_bp
 
     # REGISTER BLUEPRINT:
     app.register_blueprint(user_bp)

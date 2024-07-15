@@ -2,7 +2,7 @@ import React, {useContext, useState} from "react";
 // @ts-ignore
 import {Context} from "../Contexts/AppContext.jsx";
 import {FluxTypes} from "../../moduletypes";
-import '../styles/views/Form.scss';
+import '../styles/view/Form.scss';
 
 export const RegisterForm = () => {
     const [user, setUser] = useState(
@@ -52,14 +52,14 @@ export const RegisterForm = () => {
                     </div>
                     <div className="Form_Group">
                         <label htmlFor="">Email: </label>
-                        <input type="text" value={user.email}
+                        <input type="email" value={user.email}
                                onChange={(e) => {
                                    setUser({...user, email: e.target.value});
                                }}/>
                     </div>
                     <div className="Form_Group">
-                        <label htmlFor="">Password: </label>
-                        <input type="text" value={user.password}
+                        <label>Password: </label>
+                        <input type="password" value={user.password}
                                onChange={(e) => {
                                    setUser({...user, password: e.target.value});
                                }}/>
