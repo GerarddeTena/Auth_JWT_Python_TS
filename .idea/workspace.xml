@@ -9,11 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7584ccd6-4d2c-4d80-b18e-a909a27b99c3" name="Changes" comment="Auth_JWT_FLASK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/styles/views/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/styles/views/Home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/views/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/views/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/views/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/views/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,7 @@
       <workItem from="1721026570881" duration="26566000" />
       <workItem from="1721054524174" duration="306000" />
       <workItem from="1721054841397" duration="15614000" />
-      <workItem from="1721072098189" duration="743000" />
+      <workItem from="1721072098189" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="Auth_JWT_FLASK">
       <option name="closed" value="true" />
