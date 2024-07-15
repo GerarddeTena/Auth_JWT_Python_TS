@@ -27,7 +27,7 @@ const Layout = () => {
                 <Routes>
                     <Route path="/register" element={<RegisterForm/>}/>
                     <Route path="/login" element={<LoginForm/>}/>
-                    <Route path="/" element={<PrivateRoute component={Home}/>}/>
+                    <Route path="/home" element={<PrivateRoute component={Home}/>}/>
                 </Routes>
             </AuthProvider>
             </BrowserRouter>

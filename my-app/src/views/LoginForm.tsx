@@ -4,12 +4,14 @@ import {Context} from "../Contexts/AppContext.jsx";
 import {AuthContext} from '../Contexts/AuthContext.tsx'
 import '../styles/views/Form.scss'
 import {FluxTypes} from "../../moduletypes";
+import {useNavigate} from "react-router";
 
 
 export const LoginForm = () => {
 
     const {actions} = useContext<FluxTypes>(Context)
     const {validToken} = useContext(AuthContext);
+    const navigate = useNavigate();
 
     const [user, setUser] = useState(
         {
@@ -31,7 +33,7 @@ export const LoginForm = () => {
             const token = response ? response.token : null;
             if (response && token) {
                 localStorage.setItem('token', response.token);
-                window.location.href = '/';
+                navigate('/home');
                 validToken();
             }
         } catch (err) {

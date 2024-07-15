@@ -6,11 +6,14 @@ import PythonLogo from '../assets/python-svgrepo-com.svg';
 import TSLogo from '../assets/typescript-svgrepo-com.svg';
 import '../styles/views/Home.scss';
 export const Home = () => {
-
     const svg = {
         react: ReactLogo,
         python: PythonLogo,
         typescript: TSLogo
+    }
+    const handleLogOut = (): void => {
+        localStorage.clear();
+        window.location.href = '/login';
     }
     return (
         <main>
@@ -20,6 +23,7 @@ export const Home = () => {
                 <img style={{width: '200px'}} src={svg.python} alt="react logo"/>
                 <img style={{width: '200px'}} src={svg.typescript} alt="react logo"/>
             </div>
+            <button className="LogOut" onClick={handleLogOut}>LOG OUT</button>
         </main>
     );
 };
