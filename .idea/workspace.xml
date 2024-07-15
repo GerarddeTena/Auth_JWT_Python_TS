@@ -8,8 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7584ccd6-4d2c-4d80-b18e-a909a27b99c3" name="Changes" comment="Auth_JWT_FLASK">
+      <change beforePath="$PROJECT_DIR$/.idea/Auth_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Auth_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +109,11 @@
       <recent name="C:\Users\yhonn\Desktop\Projects\4geeks\Auth_Project\my-app\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yhonn\Desktop\Projects\4geeks\Auth_Project" />
       <recent name="C:\Users\yhonn\Desktop\Projects\4geeks\Auth_Project\my-app\src\assets" />
       <recent name="C:\Users\yhonn\Desktop\Projects\4geeks\Auth_Project\my-app\src\store\slices" />
       <recent name="C:\Users\yhonn\Desktop\Projects\4geeks\Auth_Project\my-app\src" />
       <recent name="C:\Users\yhonn\Desktop\Projects\4geeks\Auth_Project\my-app\src\HTTPCalls" />
-      <recent name="C:\Users\yhonn\Desktop\Projects\4geeks\Auth_Project\my-app\src\store" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -140,7 +141,7 @@
       <workItem from="1721026570881" duration="26566000" />
       <workItem from="1721054524174" duration="306000" />
       <workItem from="1721054841397" duration="15614000" />
-      <workItem from="1721072098189" duration="1326000" />
+      <workItem from="1721072098189" duration="1553000" />
     </task>
     <task id="LOCAL-00001" summary="Auth_JWT_FLASK">
       <option name="closed" value="true" />

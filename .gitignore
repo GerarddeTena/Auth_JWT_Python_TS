@@ -7,12 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+my-app/node_modules
 dist
 dist-ssr
 *.local
 __pycache__
-./.env
+./my-app/.env
 
 
 # Editor directories and files
